@@ -11,11 +11,13 @@ const codes = [
   "a"
 ];
 
-let index=0
+
 
 function init() {
   document.body.addEventListener("keydown",konamiCodeChecker)
 }
+
+let index=0
 
 function konamiCodeChecker(e){
   const key=e.key
