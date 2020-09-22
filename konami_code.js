@@ -27,8 +27,10 @@ function konamiCodeChecker(e){
     console.log(index)
   } if (index===codes.length){
     alert("Hurray!")
+    console.log("index=codes triggered")
     index=0
   } else {
     index=0
+    console.log("else triggered")
   }
 }
