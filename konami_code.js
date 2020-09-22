@@ -19,8 +19,10 @@ function init() {
 
 function konamiCodeChecker(e){
   const key=e.key
+  console.log(key)
   if(key===codes[index]){
     index+=1
+    console.log(index)
   } if (index===codes.length){
     alert("Hurray!")
     index=0
