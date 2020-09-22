@@ -23,6 +23,7 @@ function konamiCodeChecker(e){
    index++
    console.log(index)
    if (index===codes.length){
+     console.log(codes.length)
      alert("Hurray!")
      index=0
    }
